@@ -9,4 +9,9 @@ namespace Core
     void Init(HINSTANCE* instance);
     void Run();
     void Shutdown();
+
+
+    void SetTargetFPS(int fps);
+    int GetTargetFPS();
+
 }
